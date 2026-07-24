@@ -1,38 +1,84 @@
-# FloodGuard AI
+# FloodGuard-AI
 
 ## Overview
-FloodGuard AI is a deep learning based flood monitoring system developed as a B.Tech Final Year Project.
 
-The system detects flood situations from camera/video input using computer vision and deep learning techniques.
+FloodGuard-AI is an AI-powered flood monitoring system developed as a Final Year Project.
+
+The system combines Computer Vision, Deep Learning, and Raspberry Pi edge computing to monitor flood conditions in real time.
+
+---
 
 ## Features
 
-- Real-time flood detection
-- TensorFlow Lite model
-- OpenCV based processing
-- Water level estimation
-- Motion analysis
+- AI-based flood detection
 - Raspberry Pi deployment
+- TensorFlow Lite model
+- Real-time monitoring
+- Video processing
+- Flood severity analysis
 
-## Technologies
+---
+
+## Technologies Used
 
 - Python
 - TensorFlow
 - TensorFlow Lite
 - OpenCV
-- NumPy
-- Matplotlib
+- Raspberry Pi
+- Computer Vision
 
-## Hardware
+---
 
-- Raspberry Pi 4
-- USB Camera
+## Project Architecture
 
-## Project Status
+![Architecture](images/circuitdiagram.jpeg)
 
-Successfully completed and deployed on Raspberry Pi during the final year project.
+---
 
-The Raspberry Pi hardware belongs to the university laboratory; therefore, only the source code is available in this repository.
+## Hardware Setup
+
+![Setup](images/setup.jpeg)
+
+---
+
+## Dashboard
+
+![Dashboard](images/webpage.jpeg)
+
+---
+
+## Detection Result
+
+![Result](images/result.png)
+
+---
+
+## Repository Structure
+
+```
+FloodGuard-AI/
+│
+├── images/
+├── project_code.py
+├── train.py
+├── video.py
+├── lucasvideo.py
+├── lucasres.py
+├── requirements.txt
+└── flood_model.tflite
+```
+
+---
+
+## Future Improvements
+
+- IoT Sensor Integration
+- Mobile App
+- Cloud Dashboard
+- SMS Alert System
+
+---
 
 ## Author
 
