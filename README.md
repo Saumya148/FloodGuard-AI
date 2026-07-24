@@ -16,5 +16,4 @@ FloodGuard AI is an AI-based real-time flood monitoring system developed using C
 - Real-time dashboard
 - Edge deployment
 
-## Author
-Saumya Tamrakar
+
